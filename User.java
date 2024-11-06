@@ -7,6 +7,8 @@ public class User
     private String email;
     private bookList myBookList;
 
+    private String age;
+
     public User(String userName, String password){
         this.userName = userName;
         this.password = password;
